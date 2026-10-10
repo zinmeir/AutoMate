@@ -1,0 +1,85 @@
+itemset,size,support,count
+{Engine Oil},1,0.28919279519679786,867
+{Oil Filter},1,0.2314876584389593,694
+{Air Filter},1,0.18412274849899934,552
+{Brake Pads},1,0.1504336224149433,451
+{Windshield Washer Fluid},1,0.13675783855903936,410
+{Car Shampoo},1,0.13642428285523683,409
+{Microfiber Cloth},1,0.133422281521014,400
+{Coolant},1,0.1257505003335557,377
+{Wiper Blades},1,0.12041360907271514,361
+{Air Freshener},1,0.10840560373582388,325
+{Spark Plugs},1,0.1027351567711808,308
+{Brake Fluid},1,0.09739826551034023,292
+{Headlight Bulb},1,0.0923949299533022,277
+{Car Battery},1,0.08505670446964643,255
+{Car Wax},1,0.0847231487658439,254
+{Drain Plug Washer},1,0.0800533689126084,240
+{Tyre Pressure Gauge},1,0.07671781187458306,230
+{Brake Cleaner},1,0.07438292194796531,223
+{Dashboard Polish},1,0.07204803202134756,216
+{Cabin Air Filter},1,0.07171447631754503,215
+{Brake Discs},1,0.06804536357571714,204
+{Tyre Shine},1,0.06237491661107405,187
+{Engine Flush},1,0.058038692461641096,174
+{Puncture Repair Kit},1,0.05703802535023349,171
+{Fuel Injector Cleaner},1,0.0533689126084056,160
+{Shock Absorbers},1,0.051701134089392926,155
+{Tyre Inflator},1,0.049366244162775186,148
+{Battery Terminals},1,0.04836557705136758,145
+{Ignition Coil},1,0.047364909939959975,142
+{Jump Starter Cables},1,0.04269513008672448,128
+{Valve Caps},1,0.039693128752501666,119
+{Transmission Fluid},1,0.037358238825883926,112
+{Fuse Set},1,0.03669112741827885,110
+{Thermostat},1,0.03602401601067378,108
+{Suspension Bushings},1,0.03569046030687125,107
+{Radiator Hose},1,0.034356237491661105,103
+{Radiator Cap},1,0.03168779186124083,95
+"{Engine Oil, Oil Filter}",2,0.2171447631754503,651
+"{Air Filter, Engine Oil}",2,0.12908605737158105,387
+"{Air Filter, Oil Filter}",2,0.11741160773849232,352
+"{Car Shampoo, Microfiber Cloth}",2,0.09206137424949967,276
+"{Brake Fluid, Brake Pads}",2,0.08605737158105403,258
+"{Windshield Washer Fluid, Wiper Blades}",2,0.07204803202134756,216
+"{Drain Plug Washer, Engine Oil}",2,0.0713809206137425,214
+"{Drain Plug Washer, Oil Filter}",2,0.06604402935290193,198
+"{Brake Cleaner, Brake Pads}",2,0.0657104736490994,197
+"{Car Shampoo, Car Wax}",2,0.06370913942628419,191
+"{Cabin Air Filter, Engine Oil}",2,0.06204136090727151,186
+"{Brake Discs, Brake Pads}",2,0.058372248165443626,175
+"{Car Wax, Microfiber Cloth}",2,0.05670446964643095,170
+"{Cabin Air Filter, Oil Filter}",2,0.05570380253502335,167
+"{Car Shampoo, Dashboard Polish}",2,0.055036691127418276,165
+"{Engine Flush, Engine Oil}",2,0.05003335557038025,150
+"{Air Filter, Spark Plugs}",2,0.04836557705136758,145
+"{Car Shampoo, Tyre Shine}",2,0.04836557705136758,145
+"{Dashboard Polish, Microfiber Cloth}",2,0.04703135423615744,141
+"{Engine Flush, Oil Filter}",2,0.04503002001334223,135
+"{Air Freshener, Car Shampoo}",2,0.043028685790527016,129
+"{Brake Cleaner, Brake Fluid}",2,0.04136090727151434,124
+"{Air Filter, Drain Plug Washer}",2,0.041027351567711805,123
+"{Microfiber Cloth, Tyre Shine}",2,0.041027351567711805,123
+"{Air Freshener, Microfiber Cloth}",2,0.040693795863909275,122
+"{Fuel Injector Cleaner, Spark Plugs}",2,0.0400266844563042,120
+"{Brake Discs, Brake Fluid}",2,0.0390260173448966,117
+"{Headlight Bulb, Wiper Blades}",2,0.038692461641094064,116
+"{Battery Terminals, Car Battery}",2,0.03702468312208139,111
+"{Car Wax, Dashboard Polish}",2,0.03402268178785857,102
+"{Ignition Coil, Spark Plugs}",2,0.03402268178785857,102
+"{Engine Oil, Windshield Washer Fluid}",2,0.032021347565043365,96
+"{Air Filter, Cabin Air Filter}",2,0.03168779186124083,95
+"{Coolant, Windshield Washer Fluid}",2,0.030020013342228154,90
+"{Air Filter, Engine Oil, Oil Filter}",3,0.1114076050700467,334
+"{Drain Plug Washer, Engine Oil, Oil Filter}",3,0.06104069379586391,183
+"{Cabin Air Filter, Engine Oil, Oil Filter}",3,0.05370246831220814,161
+"{Car Shampoo, Car Wax, Microfiber Cloth}",3,0.046364242828552366,139
+"{Engine Flush, Engine Oil, Oil Filter}",3,0.04236157438292195,127
+"{Brake Cleaner, Brake Fluid, Brake Pads}",3,0.038692461641094064,116
+"{Car Shampoo, Dashboard Polish, Microfiber Cloth}",3,0.03835890593729153,115
+"{Air Filter, Drain Plug Washer, Engine Oil}",3,0.03802535023348899,114
+"{Air Filter, Drain Plug Washer, Oil Filter}",3,0.03602401601067378,108
+"{Brake Discs, Brake Fluid, Brake Pads}",3,0.035356904603068715,106
+"{Car Shampoo, Microfiber Cloth, Tyre Shine}",3,0.035356904603068715,106
+"{Air Freshener, Car Shampoo, Microfiber Cloth}",3,0.030687124749833223,92
+"{Air Filter, Drain Plug Washer, Engine Oil, Oil Filter}",4,0.03368912608405604,101

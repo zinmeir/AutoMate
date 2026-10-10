@@ -1,0 +1,17 @@
+Antecedent (LHS),Consequent (RHS),Support,Confidence,Transactions,Lift
+{Oil Filter},{Engine Oil},0.375,1.0,3,1.6
+"{Air Filter, Oil Filter}",{Engine Oil},0.25,1.0,2,1.6
+{Brake Fluid},{Brake Pads},0.25,1.0,2,4.0
+{Brake Pads},{Brake Fluid},0.25,1.0,2,4.0
+{Spark Plugs},{Air Filter},0.25,1.0,2,1.6
+"{Air Filter, Engine Oil}",{Oil Filter},0.25,0.6666666666666666,2,1.7777777777777777
+"{Engine Oil, Oil Filter}",{Air Filter},0.25,0.6666666666666666,2,1.0666666666666667
+{Oil Filter},"{Air Filter, Engine Oil}",0.25,0.6666666666666666,2,1.7777777777777777
+{Oil Filter},{Air Filter},0.25,0.6666666666666666,2,1.0666666666666667
+{Air Filter},{Engine Oil},0.375,0.6,3,0.96
+{Engine Oil},{Air Filter},0.375,0.6,3,0.96
+{Engine Oil},{Oil Filter},0.375,0.6,3,1.5999999999999999
+{Air Filter},"{Engine Oil, Oil Filter}",0.25,0.4,2,1.0666666666666667
+{Air Filter},{Oil Filter},0.25,0.4,2,1.0666666666666667
+{Air Filter},{Spark Plugs},0.25,0.4,2,1.6
+{Engine Oil},"{Air Filter, Oil Filter}",0.25,0.4,2,1.6

@@ -1,0 +1,26 @@
+k,candidate,count,support,outcome
+1,{Air Filter},5,0.625,Frequent
+1,{Brake Fluid},2,0.25,Frequent
+1,{Brake Pads},2,0.25,Frequent
+1,{Coolant},1,0.125,Pruned (support < 0.25)
+1,{Engine Oil},5,0.625,Frequent
+1,{Oil Filter},3,0.375,Frequent
+1,{Spark Plugs},2,0.25,Frequent
+2,"{Air Filter, Brake Fluid}",0,0.0,Pruned (support < 0.25)
+2,"{Air Filter, Brake Pads}",0,0.0,Pruned (support < 0.25)
+2,"{Air Filter, Engine Oil}",3,0.375,Frequent
+2,"{Air Filter, Oil Filter}",2,0.25,Frequent
+2,"{Air Filter, Spark Plugs}",2,0.25,Frequent
+2,"{Brake Fluid, Brake Pads}",2,0.25,Frequent
+2,"{Brake Fluid, Engine Oil}",1,0.125,Pruned (support < 0.25)
+2,"{Brake Fluid, Oil Filter}",0,0.0,Pruned (support < 0.25)
+2,"{Brake Fluid, Spark Plugs}",0,0.0,Pruned (support < 0.25)
+2,"{Brake Pads, Engine Oil}",1,0.125,Pruned (support < 0.25)
+2,"{Brake Pads, Oil Filter}",0,0.0,Pruned (support < 0.25)
+2,"{Brake Pads, Spark Plugs}",0,0.0,Pruned (support < 0.25)
+2,"{Engine Oil, Oil Filter}",3,0.375,Frequent
+2,"{Engine Oil, Spark Plugs}",0,0.0,Pruned (support < 0.25)
+2,"{Oil Filter, Spark Plugs}",0,0.0,Pruned (support < 0.25)
+3,"{Air Filter, Engine Oil, Oil Filter}",2,0.25,Frequent
+3,"{Air Filter, Engine Oil, Spark Plugs}",,,Pruned before counting (has an infrequent subset)
+3,"{Air Filter, Oil Filter, Spark Plugs}",,,Pruned before counting (has an infrequent subset)

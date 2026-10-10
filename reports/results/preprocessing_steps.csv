@@ -1,0 +1,7 @@
+step,rows_before,rows_after,rows_removed,rows_changed,reason
+Select mining columns,10468,10468,0,0,"Dropped irrelevant column(s): category, quantity, transaction_date, cashier_id. No rows affected."
+Remove rows with missing transaction_id,10468,10437,31,0,A line that cannot be assigned to a basket cannot contribute to any itemset.
+Remove rows with missing item,10437,10386,51,0,Blank or null item names carry no information.
+Normalise item names,10386,10386,0,282,"Trimmed whitespace, collapsed repeated spaces, replaced underscores, applied Title Case so that e.g. 'ENGINE  OIL' and 'engine_oil' count as one item."
+Remove non-product lines,10386,10202,184,0,"Invoice lines such as labour charges, fees and discounts are not purchasable parts."
+Remove duplicate transaction-item pairs,10202,10000,202,0,An item counts once per basket; repeated lines must not inflate support.

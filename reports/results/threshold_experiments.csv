@@ -1,0 +1,13 @@
+min_support,min_confidence,transactions,frequent_itemsets,largest_itemset,rules,items_with_recommendation,example_basket,example_recommendations
+0.02,0.3,2998,130,4,200,0.8048780487804879,{Brake Pads},"Brake Fluid (57%), Brake Cleaner (44%), Brake Discs (39%)"
+0.02,0.5,2998,130,4,105,0.6341463414634146,{Brake Pads},Brake Fluid (57%)
+0.02,0.7,2998,130,4,68,0.4634146341463415,{Brake Pads},none
+0.03,0.3,2998,84,4,112,0.5853658536585366,{Brake Pads},"Brake Fluid (57%), Brake Cleaner (44%), Brake Discs (39%)"
+0.03,0.5,2998,84,4,71,0.4878048780487805,{Brake Pads},Brake Fluid (57%)
+0.03,0.7,2998,84,4,43,0.36585365853658536,{Brake Pads},none
+0.05,0.3,2998,45,3,39,0.3902439024390244,{Brake Pads},"Brake Fluid (57%), Brake Cleaner (44%), Brake Discs (39%)"
+0.05,0.5,2998,45,3,31,0.3902439024390244,{Brake Pads},Brake Fluid (57%)
+0.05,0.7,2998,45,3,21,0.2682926829268293,{Brake Pads},none
+0.08,0.3,2998,22,3,16,0.17073170731707318,{Brake Pads},Brake Fluid (57%)
+0.08,0.5,2998,22,3,13,0.17073170731707318,{Brake Pads},Brake Fluid (57%)
+0.08,0.7,2998,22,3,6,0.0975609756097561,{Brake Pads},none

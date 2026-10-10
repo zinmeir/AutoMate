@@ -1,0 +1,10 @@
+# AutoMate AI - Python 3.11 or newer
+streamlit>=1.37
+pandas>=2.1
+numpy>=1.26
+plotly>=5.20
+networkx>=3.2
+mlxtend>=0.23.4      # optional second Apriori backend + cross-check test
+matplotlib>=3.8      # report figures (scripts/run_experiments.py)
+python-docx>=1.1     # report generation (scripts/build_report.py)
+pytest>=8.0
